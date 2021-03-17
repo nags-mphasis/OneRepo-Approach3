@@ -1,0 +1,40 @@
+
+public class ChildModule2 {
+	
+	@Given("SubProject1 is compiled")
+	public void sub_project1_is_compiled() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("built")
+	public void built() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("tested")
+	public void tested() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+	}
+
+	@When("control falls into ChildModule2")
+	public void control_falls_into_child_module2() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("run class files")
+	public void run_class_files() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("generate report")
+	public void generate_report() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+	}
+
+}

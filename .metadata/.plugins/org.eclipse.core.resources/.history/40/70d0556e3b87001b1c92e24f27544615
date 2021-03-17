@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-16T09:47:53.065Z",
+        "line": 3,
+        "name": "Execute SubProject2",
+        "description": "",
+        "id": "subproject2;execute-subproject2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1507000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "SubProject1 is compiled",
+            "match": {
+              "location": "SubProject2.sub_project1_is_compiled()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "built",
+            "match": {
+              "location": "SubProject2.built()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "tested",
+            "match": {
+              "location": "SubProject2.tested()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "control falls into SubProject2",
+            "match": {
+              "location": "SubProject2.control_falls_into_sub_project2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "run class files",
+            "match": {
+              "location": "SubProject2.run_class_files()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "generate report",
+            "match": {
+              "location": "SubProject2.generate_report()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "SubProject2",
+    "description": "",
+    "id": "subproject2",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/SubProject2.feature",
+    "tags": []
+  }
+]

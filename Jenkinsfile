@@ -16,6 +16,9 @@ pipeline {
         stage('Child 1') {
             steps {
                 sh '${WORKSPACE}/ChildModule1/gradlew -p ${WORKSPACE}/ChildModule1 clean build'
+                cucumber buildStatus: 'UNSTABLE',
+                    reportTitle: 'Child 1',
+                    fileIncludePattern: '**/ChildModule1.json'
             }
         }
         stage('check2') {
@@ -26,6 +29,9 @@ pipeline {
         stage('Child 2') {
             steps {
                 sh '${WORKSPACE}/ChildModule2/gradlew -p ${WORKSPACE}/ChildModule2 clean build'
+                cucumber buildStatus: 'UNSTABLE',
+                    reportTitle: 'Child 2',
+                    fileIncludePattern: '**/ChildModule2.json'
             }
         }
         stage('check3') {
